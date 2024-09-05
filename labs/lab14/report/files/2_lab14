@@ -1,0 +1,11 @@
+#!/bin/bash
+
+file=$1
+mydir="/usr/share/man/man1"
+echo "$mydir$file"
+if test -f "$mydir/$file.1.gz"
+then
+less "$mydir/$file.1.gz"
+else
+echo "no such file"
+fi

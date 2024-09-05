@@ -1,0 +1,4 @@
+#!/bin/bash
+dir=$1
+
+find $dir -type f -mtime -7 | tar -cvf "new-archieve.tar" -T - 

@@ -1,0 +1,5 @@
+#!/bin/bash
+for val in $@
+do
+    echo $val
+done

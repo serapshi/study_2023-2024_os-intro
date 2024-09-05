@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gcc -o 2_lab13.o 2_lab13.c
+./2_lab13.o
+case $? in
+1) echo 'Number is positive';;
+0) echo "Number is equal to 0";;
+2) echo "Number is negative";;
+esac

@@ -1,0 +1,19 @@
+#!/bin/bash
+t1=$1
+t2=$2
+myfile='lockedfile'
+
+while test -f $myfile 
+do
+    echo "Proccess is locked"
+    sleep $t1
+done
+
+echo "Process $$ is running"
+touch $myfile
+sleep $t2
+
+echo "Proccess $$ is done"
+rm $myfile
+
+

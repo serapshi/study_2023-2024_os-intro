@@ -1,0 +1,12 @@
+#!/bin/bash
+
+tmp=3
+t1=$1
+t2=$2
+
+for (( a=0; a<tmp; a++))
+do 
+echo "process $a is running"
+sudo ./1_lab14 $t1 $t2 > /dev/tty$a
+done
+wait

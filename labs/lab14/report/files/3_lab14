@@ -1,0 +1,36 @@
+#!/bin/bash
+let q=$(($RANDOM * 26 * 26))
+while [ $q -ge 26 ] 
+do
+r=$(($q%26))
+case $r in
+0) echo -n a;;
+1) echo  -n b;;
+2) echo  -n c;;
+3) echo -n d;;
+4) echo -n e;;
+5) echo -n f;;
+6) echo -n g;;
+7) echo -n h;;
+8) echo -n i;;
+9)  echo -n j;;
+10) echo -n k;;
+11) echo  -n l;;
+12) echo -n m;;
+13) echo -n n;;
+14) echo -n o;;
+15) echo -n p;;
+16) echo -n q;;
+17) echo -n r;;
+18) echo -n s;;
+19) echo -n t;;
+20) echo -n u ;;
+21) echo -n v;;
+22) echo -n w;;
+23) echo -n x;;
+24) echo -n y;;
+25) echo -n z;;
+esac
+((q /= 26))
+done
+echo " "

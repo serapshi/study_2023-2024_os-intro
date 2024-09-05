@@ -1,0 +1,10 @@
+#!/bin/bash
+extention=$1
+path=$2
+let ans=0
+for file in $path/*$extention
+do
+    let ans=ans+1
+done
+
+echo $ans
