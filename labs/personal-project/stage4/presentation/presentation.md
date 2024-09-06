@@ -23,9 +23,6 @@ section-titles: true
 theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
 ---
 
 # Информация
@@ -207,4 +204,3 @@ REVEALJS_THEME = beige
 - Текст используется, если все предыдущие способы отображения информации не подошли
 
 :::
-
