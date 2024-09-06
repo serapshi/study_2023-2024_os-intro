@@ -25,9 +25,6 @@ header-includes:
  - \usepackage{beamer}
  - \usetheme{metropolis}
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
 
 ---
 
