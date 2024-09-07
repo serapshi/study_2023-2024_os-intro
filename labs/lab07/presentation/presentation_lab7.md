@@ -152,13 +152,9 @@ cat?
 ## Повторная работа с базовыми командами
 
 Копирую файл /usr/include/sys/uio.h в домашний каталог и называю его equipment
-
 В домашнем каталоге создаю директорию ~/ski.plases. и перемещаю в каталог ~/ski.plases.
-
 Переименовываю файл ~/ski.plases/equipment в ~/ski.plases/equiplist
-
 Создаю в домашнем каталоге файл abc1 и копирую его в каталог ~/ski.plases, называю его equiplist2.
-
 Создаю каталог с именем equipment в каталоге ~/ski.plases и перемещаю файлы ~/ski.plases/equiplist и equiplist2 в каталог ~/ski.plases/equipment.
 
 ![Перемещаю каталоги](image/21.png){#fig:003 width=70%}
@@ -180,9 +176,7 @@ cat?
 ![Название](image/24.png){#fig:003 width=70%}
 
 Скопировал файл ~/feathers в файл ~/file.old
-
 Переместил файл ~/file.old в каталог ~/play.
-
 Скопировал каталог ~/play в каталог ~/fun и переместил каталог ~/fun в каталог ~/play и назвал его games
 
 ![Копирование с изменением названия](image/27.png){#fig:003 width=70%}
