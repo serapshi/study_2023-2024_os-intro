@@ -110,33 +110,9 @@ header-includes:
 
 ![Создание файла](image/9.png){#fig:009 width=70%}
 
-## Код программы — аналог команды ls (без использования самой этой команды и команды dir).  
+## Код программы - аналог команды ls (без использования самой этой команды и команды dir). 
 
-#!/bin/bash
-catalog=$1
-for file in $catalog/*
-do if test -d  $file
-    then echo "$file: is a directory"
-    elif test -f $file
-    then  echo -n "$file: is a file and "
-  if test -w $file && test -r $file && test -e $file
-  then echo readable and writable and executable
-  elif test -w $file && test -r $file
-  then echo writable and readable
-  elif test -r $file && test -e $file
-  then echo readable and executable
-  elif test -r $file && test -w $file
-  then echo readable and writable
-  elif test -w $file
-  then echo writable
-  elif test -r $file
-  then echo readable
-  elif test -e $file
-  then echo executable
-  else echo neither readable nor writable nor executable
-  fi
-    fi
-done
+![Код программы](image/10.png){#fig:010 width=70%}
 
 ## Сделал файл исполняемым
 
